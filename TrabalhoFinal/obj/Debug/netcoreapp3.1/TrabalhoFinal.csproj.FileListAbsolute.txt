@@ -1,0 +1,14 @@
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\bin\Debug\netcoreapp3.1\TrabalhoFinal.exe
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\bin\Debug\netcoreapp3.1\TrabalhoFinal.deps.json
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\bin\Debug\netcoreapp3.1\TrabalhoFinal.runtimeconfig.json
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\bin\Debug\netcoreapp3.1\TrabalhoFinal.runtimeconfig.dev.json
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\bin\Debug\netcoreapp3.1\TrabalhoFinal.dll
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\bin\Debug\netcoreapp3.1\TrabalhoFinal.pdb
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.csproj.AssemblyReference.cache
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.AssemblyInfoInputs.cache
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.AssemblyInfo.cs
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.csproj.CoreCompileInputs.cache
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.dll
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.pdb
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoFinal\obj\Debug\netcoreapp3.1\TrabalhoFinal.genruntimeconfig.cache
