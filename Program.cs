@@ -56,7 +56,7 @@ namespace TrabalhoFinal
 
             //while (continuar_programa)
             {
-                //criando o menu
+                //------------------------- MENU DO JOGO ---------------------------------------------------------
                 int repetirmenu = 0;
                 do
                 {
@@ -70,7 +70,7 @@ namespace TrabalhoFinal
                     string strOpcao = Console.ReadLine();
                     if (!int.TryParse(strOpcao, out int opcao) || (opcao <= 0 || opcao >= 4))
                     {
-                        //fazer while para quando errar e repetir o loop
+                        //fazer while para quando errar o número e repetir o loop
                         Console.WriteLine("Opção inválida!");
                         repetirmenu = opcao;
                     }
@@ -78,11 +78,22 @@ namespace TrabalhoFinal
 
                 if (opcao == 1)
                 {
+                    //------------------------- PARTIDA  --------------------------------------------------------- 
+
+                    Console.Write("Insira seu nome: ");
+                    string nomeJogador = Console.ReadLine();
+                    Console.WriteLine("Iniciando jogo...\n");
+
+                    Console.WriteLine($"Bem-vindo(a), {nomeJogador}!\n");
+                    Console.WriteLine("Você jogará Jokenpô. Escolha entre os símbolos pedra, papel, e tesoura. Você irá jogar contra o computador!\");
+
+                    Console.WriteLine("Sobre o jogo, a pedra vence a tesoura, a tesoura vence o papel e o papel ganha da pedra. Se uma combinação diferente dessas ocorrer, resultará em um empate.\n");
+                     
                     //while (continuar_partida)
                     {
-                        Console.Write("Insira seu nome: ");
-                        string nomeJogador = Console.ReadLine();
-                        Console.WriteLine("Iniciando jogo...\n");
+                        Console.WriteLine("Escolha umas das 3 opções: ")
+                        Console.Write("Insira sua jogada: ");
+                        
                     }
                 }
                 else if (opcao == 2)
