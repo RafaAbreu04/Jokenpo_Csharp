@@ -65,27 +65,29 @@ namespace TrabalhoProgramacao
                     Console.WriteLine("3 - Sair");
 
                     string strOpcao = Console.ReadLine();
-                    if (!int.TryParse(strOpcao, out opcao) || (opcao >= 0 || opcao <= 4))
+                    if (!int.TryParse(strOpcao, out opcao) || (opcao < 0 || opcao > 4))
                     {
                         //fazer while para quando errar o número e repetir o loop
                         Console.WriteLine("Opção inválida!");
                         repetirmenu = opcao;
                     }
-                } while (repetirmenu <= 0 || repetirmenu >= 4);
+                } while (repetirmenu < 0 || repetirmenu > 4);
 
                 if (opcao == 1)
                 {
                     int jogada;
+                    char[] arrayIA = {'R', 'P', 'T'};
                     //------------------------- PARTIDA  --------------------------------------------------------- 
 
                     Console.Write("Insira seu nome: ");
                     string nomeJogador = Console.ReadLine();
+                    Console.Clear();
                     Console.WriteLine("Iniciando jogo...\n");
 
                     Console.WriteLine($"Bem-vindo(a), {nomeJogador}!\n");
                     Console.WriteLine("Você jogará Jokenpô. Escolha entre os símbolos pedra, papel, e tesoura. Você irá jogar contra o computador!\n");
 
-                    Console.WriteLine("Sobre o jogo, a pedra vence a tesoura, a tesoura vence o papel e o papel ganha da pedra. Se uma combinação diferente dessas ocorrer, resultará em um empate.\n");
+                    Console.WriteLine("Sobre o jogo, a pedra vence a tesoura, a tesoura vence o papel e o papel ganha da pedra.\nSe uma combinação diferente dessas ocorrer, resultará em um empate.\n");
 
                     //while (continuar_partida)
                     {
@@ -94,23 +96,33 @@ namespace TrabalhoProgramacao
                         Console.WriteLine("PP (Papel)");
                         Console.WriteLine("T (Tesoura)");
 
-                        Console.Write("Insira sua jogada: ");
+                        Console.Write("Insira sua jogada: \n");
                         string strJogada = Console.ReadLine().ToUpper();
 
                         if (strJogada.Equals("P") || strJogada.Equals("PEDRA") || strJogada.Equals("P (Pedra)"))
                         {
-                            jogada = 'P';
+                            jogada = 'R';
                         }
                         else if (strJogada.Equals("PP") || strJogada.Equals("PAPEL") || strJogada.Equals("PP (Papel)"))
                         {
-                            jogada = 'S';
+                            jogada = 'P';
                         }
                         else if (strJogada.Equals("T") || strJogada.Equals("TESOURA") || strJogada.Equals("T (Tesoura)"))
                         {
                             jogada = 'T';
                         }
+                        else
+                        {
+                            Console.WriteLine("Jogada inválida!");
+                            //fazer loop para fazer jogada certa
+                        }
 
-
+                        //int range = 2;
+                        Random rnd = new Random();
+                        Console.WriteLine(rnd.Next(1, 4));
+                        //int numeroGerado = random.Next(1, 3);
+                        //Console.WriteLine($"A jogada da IA foi: {numeroGerado}");
+                        // jogadaIA = 
                     }
                 }
                 else if (opcao == 2)
@@ -129,6 +141,10 @@ namespace TrabalhoProgramacao
 
 
             }
+
+
+
+            Console.ReadLine();
         }
     }
 }
