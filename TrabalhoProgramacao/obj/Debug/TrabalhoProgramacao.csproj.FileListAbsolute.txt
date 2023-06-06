@@ -1,0 +1,7 @@
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoProgramacao\bin\Debug\TrabalhoProgramacao.exe.config
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoProgramacao\bin\Debug\TrabalhoProgramacao.exe
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoProgramacao\bin\Debug\TrabalhoProgramacao.pdb
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoProgramacao\obj\Debug\TrabalhoProgramacao.csproj.AssemblyReference.cache
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoProgramacao\obj\Debug\TrabalhoProgramacao.csproj.CoreCompileInputs.cache
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoProgramacao\obj\Debug\TrabalhoProgramacao.exe
+C:\Users\rafaelly.agalhardo\source\repos\TrabalhoProgramacao\obj\Debug\TrabalhoProgramacao.pdb
